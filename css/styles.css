@@ -7,9 +7,390 @@
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
+    
     font-family: 'PT Sans', sans-serif;
-    background-color: #0a283f;/*debug*/
     color: #fff;
 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header-h {
+    height: 92px;
+    background-color: #ffffff;
+}
+
+.header-btn {
+    background-color: #5addcd;
+    border-radius: 5px;
+    border-style: none;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+/* header */
+header .container-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px 8px;
+}
+
+header .container-menu .menu-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header .container-menu .menu-right .box-link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+header .container-menu .menu-right .box-link ul li a{
+    margin-left: 15px;
+    color:#9c9b9b;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+header .container-menu .menu-right .box-link ul li a:last-child{
+    padding-right: 10px;
+}
+
+header .container-menu .menu-right .box-link ul li:last-child{
+    padding-right: 10px;
+}
+
+header .container-menu .menu-right .box-link ul li a:hover{
+    text-decoration: none;
+    color: #290099;
+}
+
+/*FINE HEADER*/
+
+
+/*HERO*/
+
+main #hero {
+    background: url("../images/home_finance_slider_bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 1300px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+main #hero .container .box-hero .box-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/*FINE HERO*/
+
+/*MAIN AREA*/
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color:lightgrey;
+    margin:20px auto;
+}
+
+.flex-item {
+    width: 200px;
+    height:200px;
+    line-height:200px;
+    justify-content: space-between;
+    color: #fff;
+    font-size:30px;
+    }
+
+.btn-container-finance {
+    width: 150px;
+    background-color: #42ddcd;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 13px 29px;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.card {
+    border: none;
+}
+
+
+.btn-ctc {
+    width: 100px;
+    margin-left: 10px;
+    background-color: #42ddcd;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 10px 0px;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.btn-ctc:hover {
+    background-color: #29b1a3;
+
+}
+
+.btn-primary {
+    width: 100%;
+    
+    bottom:0;
+    color: #fff;
+    background-color:#42ddcd;
+    border-style: none;
+    margin-bottom: 0;
+}
+
+.pad-plus {
+    padding-left: 10px;
+}
+
+.flex-grid {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
+
+.title-service {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.h-line { 
+    text-align: center;
+    width:25%; 
+    margin-top: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+    height:1px; 
+    background: rgb(0, 0, 0) 
+}
+.h5-bizloans {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:black;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.h5-bizloans:hover {
+    color:#5bdccd;
+    cursor: pointer;
+
+}
+
+.icon-svg {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.icon-svg-hov:hover {
+    color:#5bdccd;
+    cursor: pointer;
+}
+.diamond {
+    padding-bottom: 3px;
+}
+
+.p-service {
+    color: #808080;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.float-impact {
+    float: left;
+}
+.padding-box {
+    padding-top: 50px;
+}
+
+.container-gray {
+    background-color: #f9f9f9;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9; 
+  }
+
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 100px;
+  }
+
+.cloudbasedfinance-container{
+        display: flex;
+        flex-flow: row wrap;
+        background-color: rgb(127, 47, 255);
+        -webkit-flex-flow: row nowrap;
+        align-items: stretch;
+        -webkit-align-items: stretch;
+        justify-content: space-between;
+        margin-top: 10px;
+}
+        
+.cloudbasedfinance-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 10px;
+    }
+
+
+main #testo .container {
+    padding:60px;
+}
+
+main #testo .container .main-box {
+    position: relative;
+}
+
+
+main #testo .container .main-box .box-right .box-title h1 {
+    margin-bottom: 30px;
+    padding-top: 120px;
+    font-size: 40px;
+    color:#2d2d2d;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+main #testo .container .main-box .box-right .box-text p {
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c6c1bd;
+    letter-spacing: 1px;
+}
+
+
+
+/*MARKETING AREA*/
+
+main #marketing-area {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9 ;
+}
+
+main #marketing-area .col-lg-12 .box-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #marketing-area .col-lg-12 .box-top .box-title h1 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #040404;
+}
+
+main #marketing-area .col-lg-12 .box-top {
+    margin-bottom: 30px;
+}
+
+
+.col-99{
+    text-align: center;
+}
+
+.background-container {
+    width: 800px;
+    height:600px;
+    background-image: url(../images/counters-bg-image.jpg);
+}
+
+.h2-communities {
+    font-size: 30px;
+    text-align: left;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.btn-padding {
+
+    margin-left: 50px;
+}
+
+.p-investments {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;
 }
