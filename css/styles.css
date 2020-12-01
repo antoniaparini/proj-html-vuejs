@@ -190,7 +190,6 @@ main #hero .container .box-hero .box-title h2{
 
 .btn-primary {
     width: 100%;
-    
     bottom:0;
     color: #fff;
     background-color:#42ddcd;
@@ -198,6 +197,10 @@ main #hero .container .box-hero .box-title h2{
     margin-bottom: 0;
 }
 
+.btn-primary-hov:hover{
+    background: rgb(0,165,188);
+    background: linear-gradient(45deg, rgba(0,165,188,1) 0%, rgba(0,187,168,1) 100%);
+}
 .pad-plus {
     padding-left: 10px;
 }
@@ -369,8 +372,8 @@ main #marketing-area .col-lg-12 .box-top {
 }
 
 .background-container {
-    width: 800px;
-    height:600px;
+    width: 700px;
+    height:550px;
     background-image: url(../images/counters-bg-image.jpg);
 }
 
@@ -394,3 +397,97 @@ main #marketing-area .col-lg-12 .box-top {
     margin-left: 50px;
     margin-top: 100px;
 }
+
+/*boxes*/
+
+/* Goals */
+.h1-goals{
+    color: #4a75b2;
+    font-size: 40px;
+}
+.p-grey{
+    color:#808080;
+}
+.goals-box {
+    background: #fff;
+    /*background: rgb(0,165,188);
+    background: linear-gradient(45deg, rgba(0,165,188,1) 0%, rgba(0,187,168,1) 100%);*/
+  }
+  
+  .goals-box .container {
+    padding: 20px 0px;
+    margin-left: 45%;
+    text-align: center;
+    color:#fff;
+  }
+  
+  .goals-box h2 {
+    padding: 50px;
+  }
+  
+  .goals-box p {
+    font-size: 16px;
+  }
+  
+  .grid {
+    margin: 75px 0px;
+  }
+  
+  .grid .box-grid {
+    position: relative;
+    float:left;
+    width: 25%;
+    height: 200px;
+    padding: 0 85px;
+  }
+  
+  .box-grid .box-content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .box-grid:nth-child(1),
+  .box-grid:nth-child(2),
+  .box-grid:nth-child(3),
+  .box-grid:nth-child(4) {
+    /*border-bottom: 1px #fff solid;*/
+  }
+  
+  .box-grid:nth-child(1),
+  .box-grid:nth-child(2),
+  .box-grid:nth-child(3),
+  .box-grid:nth-child(5),
+  .box-grid:nth-child(6),
+  .box-grid:nth-child(7) {
+    /*border-right: 1px #fff solid;*/
+  }
+  
+  .box-content .icon {
+    vertical-align: top;
+    margin-bottom:15px;
+  }
+  
+  .box-grid:nth-child(2) img {
+    margin-top:-19px;
+  }
+  
+  .box-grid:nth-child(8) img {
+    margin-top:30px;
+  }
+  
+  .box-content h5 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom:15px;
+  }
+  
+  .box-grid img {
+    height: 30px;
+  }
+  
+  .box-grid:last-child img {
+    height: 20px;
+  }
+  
