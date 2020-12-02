@@ -398,7 +398,6 @@ main #marketing-area .col-lg-12 .box-top {
     margin-top: 100px;
 }
 
-/*boxes*/
 
 /* Goals */
 .h1-goals{
@@ -410,13 +409,11 @@ main #marketing-area .col-lg-12 .box-top {
 }
 .goals-box {
     background: #fff;
-    /*background: rgb(0,165,188);
-    background: linear-gradient(45deg, rgba(0,165,188,1) 0%, rgba(0,187,168,1) 100%);*/
   }
   
   .goals-box .container {
     padding: 20px 0px;
-    margin-left: 45%;
+    margin-left: 38%;
     text-align: center;
     color:#fff;
   }
@@ -452,7 +449,7 @@ main #marketing-area .col-lg-12 .box-top {
   .box-grid:nth-child(2),
   .box-grid:nth-child(3),
   .box-grid:nth-child(4) {
-    /*border-bottom: 1px #fff solid;*/
+  
   }
   
   .box-grid:nth-child(1),
@@ -461,7 +458,7 @@ main #marketing-area .col-lg-12 .box-top {
   .box-grid:nth-child(5),
   .box-grid:nth-child(6),
   .box-grid:nth-child(7) {
-    /*border-right: 1px #fff solid;*/
+ 
   }
   
   .box-content .icon {
