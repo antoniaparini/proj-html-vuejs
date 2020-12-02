@@ -163,11 +163,24 @@ main #hero .container .box-hero .box-title h2{
     font-size: 14px;
 }
 
-.card {
+.card-width {
     border: none;
+    align-content: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.card-border {
+    border-right: 0.5px #ebebeb;
 }
 
 
+#f-grow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 0;
+}
 .btn-ctc {
     width: 100px;
     margin-left: 10px;
@@ -263,6 +276,24 @@ main #hero .container .box-hero .box-title h2{
     padding-bottom: 70px;
 
 }
+
+.p-service2 {
+    color: #808080;
+text-align: center;
+padding-bottom: 40px;
+}
+
+.p-service3 {
+color: #0f0f0f;
+text-align: center;
+
+}
+
+.creative-small {
+    color: #808080; 
+}
+
+
 .float-impact {
     float: left;
 }
@@ -310,7 +341,7 @@ main #hero .container .box-hero .box-title h2{
 
 
 main #testo .container {
-    padding:60px;
+    padding:0px;
 }
 
 main #testo .container .main-box {
@@ -427,7 +458,8 @@ main #marketing-area .col-lg-12 .box-top {
   }
   
   .grid {
-    margin: 75px 0px;
+    padding: 75px 0px;
+    padding-bottom: 0;
   }
   
   .grid .box-grid {
@@ -445,21 +477,6 @@ main #marketing-area .col-lg-12 .box-top {
     transform: translate(-50%,-50%);
   }
   
-  .box-grid:nth-child(1),
-  .box-grid:nth-child(2),
-  .box-grid:nth-child(3),
-  .box-grid:nth-child(4) {
-  
-  }
-  
-  .box-grid:nth-child(1),
-  .box-grid:nth-child(2),
-  .box-grid:nth-child(3),
-  .box-grid:nth-child(5),
-  .box-grid:nth-child(6),
-  .box-grid:nth-child(7) {
- 
-  }
   
   .box-content .icon {
     vertical-align: top;
@@ -488,3 +505,54 @@ main #marketing-area .col-lg-12 .box-top {
     height: 20px;
   }
   
+/*.row-specs{
+    justify-content: space-around;
+}*/
+
+.card-ok {
+ border-style: none;
+ border-radius: none;
+}
+
+.card {
+    border-radius: none;
+}
+
+.card-border-style {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: none;
+}
+
+.container-special{
+    width:100%;
+}
+.creative-designer {
+    text-align: center;
+    color: #2d2d2d;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.background-cont-bot{
+    background-image: url(../images/ready_to_talk_cta_bg.jpg);
+    width:100%;
+    height:554px;
+
+
+}
+
+.ready-talk{
+    padding-top: 120px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-bottom {
+    text-align: center;
+    padding-top: -40px;
+}
