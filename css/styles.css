@@ -284,7 +284,7 @@ padding-bottom: 40px;
 }
 
 .p-service3 {
-color: #0f0f0f;
+color: #808080;
 text-align: center;
 
 }
@@ -556,3 +556,45 @@ main #marketing-area .col-lg-12 .box-top {
     text-align: center;
     padding-top: -40px;
 }
+
+/*FOOTER*/
+
+.card-ok-foot {
+    border-style: none;
+    border-radius: none;
+    background-color: #1a1b21;
+ 
+}
+
+.logo-footer{
+    padding-top: 30px;
+}
+
+.col-foot-pad{
+    padding-top: 30px;  
+    
+}
+
+.h5-foot{
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.ul-foot {
+    text-align: left;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+.p-li{
+    color: #949494;
+    font-size: 14px;
+}
+
+.twi-ico{
+    font-size: 30px;
+    color:#5aaeeb;
+}
+   
+
