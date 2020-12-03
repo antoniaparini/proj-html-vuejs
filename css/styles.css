@@ -597,6 +597,7 @@ main #marketing-area .col-lg-12 .box-top {
     color:#5aaeeb;
 }
 
+/*FOOTER BOTTOM*/
 .bottom-ft-content {
     background-color: black;
         border-style: none;
@@ -642,5 +643,10 @@ main #marketing-area .col-lg-12 .box-top {
 
 .p-icons{
     padding-top: 20px;
+}
+
+.p-icons-hov:hover {
+    cursor: pointer;
+
 }
 
