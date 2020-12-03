@@ -567,11 +567,11 @@ main #marketing-area .col-lg-12 .box-top {
 }
 
 .logo-footer{
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .col-foot-pad{
-    padding-top: 30px;  
+    padding-top: 40px;  
     
 }
 
@@ -596,5 +596,51 @@ main #marketing-area .col-lg-12 .box-top {
     font-size: 30px;
     color:#5aaeeb;
 }
-   
+
+.bottom-ft-content {
+    background-color: black;
+        border-style: none;
+        border-radius: none;
+     
+}
+
+
+.copyright-notice{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-size: 11px;
+    color:  #949494;
+}
+
+.foot-bott-links a{
+    text-decoration: none;
+}
+
+.bottom-notice-l{
+    float: left;
+}
+
+.bottom-notice-r{
+    float: right;
+}
+
+.social-ico{
+    color: #fff;
+    text-align: center;
+    padding-right: 40px;
+    font-size: 16px;
+    background-color: #5cdbcc;
+    border-color:  #5cdbcc;
+    border-radius: 50%;
+    
+}
+
+.container-fluid-pad{
+    padding-right: 50px;
+}
+
+.p-icons{
+    padding-top: 20px;
+}
 
