@@ -592,6 +592,11 @@ main #marketing-area .col-lg-12 .box-top {
     font-size: 14px;
 }
 
+.p-li-hov:hover{
+    cursor: pointer;
+    color: blanchedalmond;
+}
+
 .twi-ico{
     font-size: 30px;
     color:#5aaeeb;
